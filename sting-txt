@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <p>print the length of a string:</p>
+
+    <p id="demo"></p>
+
+    <script>
+        let txt =prompt("enter the string");
+        let string = txt.length;
+        document.getElementById("demo").innerHTML = string;
+    </script>
+
+</body>
+
+</html>
