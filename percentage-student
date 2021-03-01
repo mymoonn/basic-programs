@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+
+
+    <script>
+        function displaystudent1()
+        {
+            let a=prompt("enter tamil marks");
+            let b=prompt("enter english marks");
+            let c=prompt("enter maths marks");
+            let d=parseInt(a)+parseInt(b)+parseInt(c);
+            alert("total mark of the first student is:"+d);
+            let e=d/3;
+            alert("percentage of student 1:"+e);
+        }
+        function displaystudent2()
+        {
+            let a1=prompt("enter tamil marks");
+            let b1=prompt("enter english marks");
+            let c1=prompt("enter maths marks");
+            let d1=parseInt(a1)+parseInt(b1)+parseInt(c1);
+            alert("total mark of the second student is:"+d1);
+            let e1=d1/3;
+            alert("percentage of student 2:"+e1);
+        }
+    </script>
+    <button onclick="displaystudent1()">display student1 marks</button>
+    <button onclick="displaystudent2()">display student2 marks</button>
+
+
+</body>
+
+</html>
