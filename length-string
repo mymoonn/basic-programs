@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <p> Print number of words in the string </p>
+
+        <button onclick="myFunction()">click me to know the result</button>
+        
+        <p id="demo"></p>
+        
+        <script>
+        function myFunction() {
+          let s = prompt("enter the string");
+          var n = s.length;
+          document.getElementById("demo").innerHTML = n;
+        }
+        </script>
+        
+        
+       
+    </head>
+</html>
