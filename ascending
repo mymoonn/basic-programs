@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> sort the given 10 numbers in ascending order.</p>
+
+<button onclick="myFunction()">click me</button>
+
+<p id="demo"></p>
+
+<script>
+let numbers = [78,90,5,1,60,43,0,27,89,10];
+document.getElementById("demo").innerHTML = numbers;
+
+function myFunction() {
+  numbers.sort(function(a, b){return a-b});
+  document.getElementById("demo").innerHTML = numbers;
+}
+</script>
+
+</body>
+</html>
