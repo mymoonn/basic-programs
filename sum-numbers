@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+<H1>sum of three numbers</H1>
+
+
+
+    <script>
+        function displaywelcome()
+        {
+            let a=prompt("enter first number");
+            let b=prompt("enter second number");
+            let c=prompt("enter third number");
+            let d=parseInt(a)+parseInt(b)+parseInt(c);
+            alert("the sum of three number is:"+d);
+        }
+       
+    </script>
+    <button onclick="displaywelcome()">click me to know the answer</button>
+
+</body>
+
+</html>
