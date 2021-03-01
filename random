@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p> To display a random number between 1 and 80.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  let r = document.getElementById("demo")
+  x.innerHTML = Math.floor((Math.random() * 80) + 1);
+}
+</script>
+
+</body>
+</html>
+
