@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>square of numbers between 1 and 6</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var a = Math.pow(1, 2);
+  var b = Math.pow(2, 2);
+  var c = Math.pow(3, 2);
+  var d = Math.pow(4, 2);
+  var e = Math.pow(5, 2);
+  var f = Math.pow(6, 2);
+
+  var x = b + "<br>" + c + "<br>" + d + "<br>" + e ;
+  document.getElementById("demo").innerHTML = x; 
+}
+</script>
+
+</body>
+</html>
