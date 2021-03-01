@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <head>
+        <p> print even numbers between 100 to 200</p>
+    </head>
+
+    <script>
+        var i;
+        for (i = 100; i <= 200; i++)
+            if (i % 2 == 0)
+                console.log(i + " <br>")
+    </script>
+
+</body>
+
+</html>
